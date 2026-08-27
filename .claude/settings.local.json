@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ELECTRON_MIRROR=\"https://npmmirror.com/mirrors/electron/\" npm install --no-audit --no-fund)",
+      "Bash(npm approve-scripts *)",
+      "Bash(npm run *)",
+      "Bash(./node_modules/.bin/electron /tmp/electron-test.js)",
+      "Bash(./node_modules/.bin/electron electron-test.js)",
+      "Bash(awk '{print $2, $11}')",
+      "Bash(osascript -e 'tell application \"System Events\" to get name of every window of process \"Electron\"')",
+      "Bash(cat \"/private/tmp/claude-501/-Users-wangchaoguo-Documents-claudeCode-heimaapp/ea9137e1-2919-40ba-b51b-94131446d251/tasks/bhqxfxymx.output\" | tail -5; echo \"===数据目录检查===\"; ls -la \"$HOME/Library/Application Support/heima-bookkeeping/\" 2>&1)",
+      "Read(//Users/wangchaoguo/Library/Application Support/heima-bookkeeping/**)",
+      "Bash(ELECTRON_MIRROR=\"https://npmmirror.com/mirrors/electron/\" npm run build:mac)",
+      "Bash(awk '{print \"PID:\", $2, \"启动时间:\", $9}')",
+      "Bash(/Users/wangchaoguo/Documents/claudeCode/heimaapp/dist/mac/黑马记账.app/Contents/MacOS/黑马记账)",
+      "Bash(wait)",
+      "Bash(node -e ' *)",
+      "Bash(open \"/Users/wangchaoguo/Documents/claudeCode/heimaapp/dist/mac/黑马记账.app\")",
+      "Bash(ps -axo pid,command)",
+      "Bash(ELECTRON_RUN_AS_NODE= \"./dist/mac/黑马记账.app/Contents/MacOS/黑马记账\")",
+      "Bash(echo \"=== 后台任务状态 ===\"; ls -la /private/tmp/claude-501/-Users-wangchaoguo-Documents-claudeCode-heimaapp/ea9137e1-2919-40ba-b51b-94131446d251/tasks/bidlh9raw.output 2>&1; cat \"/private/tmp/claude-501/-Users-wangchaoguo-Documents-claudeCode-heimaapp/ea9137e1-2919-40ba-b51b-94131446d251/tasks/bidlh9raw.output\" 2>&1; echo \"=== 崩溃报告 ===\"; ls -lt ~/Library/Logs/DiagnosticReports/ 2>&1 | grep -i \"黑马\\\\|记账\\\\|Electron\" | head -3)",
+      "Read(//Users/wangchaoguo/Library/Logs/DiagnosticReports/**)",
+      "Bash(ELECTRON_RUN_AS_NODE= \"./dist/mac/黑马记账.app/Contents/MacOS/黑马记账\" --enable-logging)",
+      "Bash(echo \"=== 退出码: $? ===\")",
+      "Bash(git --version)",
+      "Bash(git config *)",
+      "Bash(echo \"user.name: $\\(git config --global user.name 2>&1 || echo '未设置'\\)\")",
+      "Bash(echo \"user.email: $\\(git config --global user.email 2>&1 || echo '未设置'\\)\")",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
