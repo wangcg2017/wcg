@@ -89,7 +89,7 @@ function createWindow() {
     height: 720,
     minWidth: 780,
     minHeight: 600,
-    title: '黑马记账',
+    title: '记账APP',
     backgroundColor: '#f5f6f8',
     webPreferences: {
       preload: path.join(__dirname, '../preload/index.js'),

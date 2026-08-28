@@ -73,7 +73,7 @@ onMounted(loadData)
     <header class="app-header">
       <div class="logo">
         <span class="logo-icon">🐴</span>
-        <span class="logo-name">黑马记账</span>
+        <span class="logo-name">记账APP</span>
       </div>
       <div class="header-actions">
         <el-button @click="showCategories = true">⚙️ 分类管理</el-button>

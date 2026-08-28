@@ -1,7 +1,7 @@
 {
   "name": "heima-bookkeeping",
   "version": "1.0.0",
-  "description": "黑马记账 - 简单易用的 macOS 个人记账工具",
+  "description": "记账APP - 简单易用的 macOS 个人记账工具",
   "main": "./out/main/index.js",
   "author": "heima",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "build": {
     "appId": "com.heima.bookkeeping",
-    "productName": "黑马记账",
+    "productName": "记账APP",
     "directories": {
       "output": "dist",
       "buildResources": "build"

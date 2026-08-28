@@ -1,4 +1,4 @@
-# 黑马记账 (Heima Bookkeeping)
+# 记账APP (Bookkeeping App)
 
 一款运行在 macOS 上的个人记账工具，记录每一笔人民币花销，并按二级分类统计。
 
